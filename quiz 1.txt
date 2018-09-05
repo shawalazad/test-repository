@@ -1,0 +1,56 @@
+Q. How to launch swi-prolog on command line?
+Ans: swipl --help
+        swipl --version
+        swipl --arch
+        swipl --dump-runtime-variables
+        Reference: http://www.swi-prolog.org/pldoc/man?section=cmdline
+
+Q. What is the extension of a prolog Knowledge Base?
+Ans: .pl
+
+Q. How to exit a prolog session?
+Ans: ctrl d & halt
+
+Q. How to get help on a topic from within prolog?
+Ans: Prolog Environmental Tutorial
+
+Q. What is an atom?
+Ans: An atom, in Prolog, means a single data item. It may be of one of four types:
+        a string atom
+        symbol, like
+        the empty list []
+        strings of special characters
+        Reference: google.com
+
+Q. What is a term?
+Ans: True when Term is a term with functor Name / Arity .
+        If Term is a variable it is unified with a new term whose arguments are all different
+        variables
+        Reference: google.com
+
+Q. What is functor?
+Ans:  the word functor is used to refer to the atom at the start of a structure, along with
+         its arity, that is, the number of arguments it takes. For example, in likes(mary, pizza),
+         likes/2 is the functor. 
+         Reference: http://www.cse.unsw.edu.au/~billw/dictionaries/prolog/functor.html
+
+Q. What are complex terms?
+Ans: The number of arguments that a complex term has is called its arity. For instance,
+        woman(mia) is a complex term with arity 1
+        Reference: google.com
+
+Q. What is predicate?
+Ans: The predicate name is a Prolog atom.  A predicate is defined by a collection of clauses.
+        A clause is either a rule or a fact.
+        Reference: google.com
+
+Q. What is arity of predicate?
+Ans: A predicate with name Pred and N arguments is denoted by Pred/N, which is called a
+        predicate indicator. N is called the arity of the predicate.
+        Reference: https://www.metalevel.at/prolog/concepts
+
+Q. What is unification?
+Ans: The way in which Prolog matches two terms is called unification.
+        The simplest form of unification occurs between two structures with no variables.
+        Reference: http://www.dai.ed.ac.uk/groups/ssp/bookpages/quickprolog/node12.html
+
